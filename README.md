@@ -3,7 +3,7 @@
 3. Install the requirements: `pip install -r requirements.txt`
 
 In order to carry out your own sentiment analysis, we have provided the code to gather tweets on a new hashtag. In the script twitter_import.py you need to fill in your twitter developer credentials in order to be able to download new tweets. Alternatively, we have provided the #debateTelemadrid tweets in the repository.
-Running python twitter_import.py <search_term> in the command-line will start the download of tweets. The script automatically adds a hashtag to the beginning of the term, and will begin streaming the tweets and will store them in data/#search_term.json
+Running `python twitter_import.py <search_term>` in the command-line will start the download of tweets. The script automatically adds a hashtag to the beginning of the term, and will begin streaming the tweets and will store them in data/#search_term.json
 
 You can then start running the notebook. We have provided the training dataset but have also made available the trained model’s weights on our google drive (GitHub only allows files up to 100MB). You can find it [here](https://drive.google.com/file/d/1sFHdn5c5onhJufHQU9Cut75RznBFUMMQ/view?usp=sharing). Download the file and place it in the folder called saved_model alongside the file config.json. This can be imported through the notebook which will allow you to directly make predictions without having to re-train the model. 
 
