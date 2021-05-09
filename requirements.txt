@@ -1,0 +1,11 @@
+tweepy
+ekphrasis
+emoji
+pandas
+numpy
+torch
+transformers
+ktrain
+sklearn
+tensorflow
+xlrd
